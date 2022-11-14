@@ -1,4 +1,4 @@
-.App {
+/*.App {
   text-align: center;
 }
 
@@ -35,4 +35,44 @@
   to {
     transform: rotate(360deg);
   }
+}*/
+
+body {
+  font-family: Arial;
+  font-size: 12px;
+}
+
+.pre-test-value {
+  stroke: red;
+}
+
+.axis-line {
+  stroke-width: 2px;
+  stroke: black;
+  shape-rendering : crispEdges;
+}
+
+.test-line {
+  stroke-width: 2px;
+}
+
+.test-line.neg {
+  stroke: rgba(255,0,0,0.7);
+}
+
+.test-line.pos {
+  stroke: rgba(0, 0, 255, 0.7);
+}
+
+path.pointedRect {
+  stroke: #000;
+  stroke-width: 0px;
+}
+
+path.pointedRect.neg {
+  fill: rgba(255, 0, 0, 0.7);
+}
+
+path.pointedRect.pos {
+  fill: rgba(0, 0, 255, 0.7);
 }
